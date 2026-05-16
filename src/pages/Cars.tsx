@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 function Cars() {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    axios.get('/api/cars')
-      .then(response => {
-        setCars(response.data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
+    const fetchedCars = [
+      { id: 1, name: 'Car 1' },
+      { id: 2, name: 'Car 2' },
+      { id: 3, name: 'Car 3' }
+    ];
+    setCars(fetchedCars);
   }, []);
 
   return (
