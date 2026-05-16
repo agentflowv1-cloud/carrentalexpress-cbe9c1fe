@@ -1,10 +1,15 @@
 import React from 'react';
+import HeroBanner from '../components/HeroBanner';
 
 function Home() {
   return (
-    <div className="home">
-      <h1>Welcome to Car Rental Express!</h1>
-      <p>We offer a wide range of cars for rent.</p>
+    <div>
+      <HeroBanner
+        image="https://example.com/background.jpg"
+        video="https://example.com/background.mp4"
+        title="Welcome to our website"
+        description="This is our website, where you can find information about our business."
+      />
     </div>
   );
 }
