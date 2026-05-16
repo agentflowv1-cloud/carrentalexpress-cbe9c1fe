@@ -1,3 +1,16 @@
 .services h1 {
   text-align: center;
 }
+.services .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services .card {
+  margin: 20px;
+  padding: 20px;
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
