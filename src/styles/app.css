@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .app {
   max-width: 800px;
   margin: 40px auto;
@@ -12,61 +11,24 @@ body {
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 .home {
   text-align: center;
 }
-
 .cars {
   margin-top: 20px;
 }
-
 .cars ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .cars li {
   padding: 10px;
   border-bottom: 1px solid #ccc;
 }
-
 .cars li:last-child {
   border-bottom: none;
 }
-
 .about {
   text-align: center;
-}
-
-.navbar {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-.navbar ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  clear: both;
 }
